@@ -9,6 +9,8 @@ use App\Models\Review;
 
 class Product extends Model
 {
+    protected $fillable = ['name', 'description'];
+
     public function sellers()
     {
         return $this->belongsToMany(Seller::class, 'seller_product')
