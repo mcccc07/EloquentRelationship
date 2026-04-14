@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use App\Models\Product;
 use App\Models\Order;
 use App\Models\Review;
+use App\Models\Profile;
 
 class Seller extends Model
 {

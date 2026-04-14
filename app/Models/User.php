@@ -48,6 +48,6 @@ class User extends Authenticatable
     }
     public function seller()
     {
-        return $this->hasOne(Profile::class);
-    }   
+        return $this->hasOne(Seller::class);
+    }
 }

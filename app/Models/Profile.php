@@ -3,10 +3,11 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Seller;
 
 class Profile extends Model
 {
-    public function user()
+    public function seller()
     {
         return $this->belongsTo(Seller::class);
     }
