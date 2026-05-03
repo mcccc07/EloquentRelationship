@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use App\Models\Profile;
+use App\Models\Task; // Added Task import for clarity
+use App\Models\Seller;
 
 class User extends Authenticatable
 {
@@ -46,8 +48,18 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    /**
+     * Relationships
+     */
+
     public function seller()
     {
         return $this->hasOne(Seller::class);
+    }
+
+    public function tasks()
+    {
+        return $this->hasMany(Task::class);
     }
 }

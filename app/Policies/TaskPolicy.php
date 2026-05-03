@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Policies;
+
+use App\Models\Task;
+use App\Models\User;
+
+class TaskPolicy
+{
+    public function update(User $user, Task $task): bool
+    {
+        // Only the owner of the task can update it
+        return $user->id === $task->user_id;
+    }
+
+    public function delete(User $user, Task $task): bool
+    {
+        // Only the owner of the task can delete it
+        return $user->id === $task->user_id;
+    }
+}
