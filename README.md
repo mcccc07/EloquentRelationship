@@ -1,13 +1,3 @@
-<img width="1036" height="970" alt="Screenshot 2026-05-03 095343" src="https://github.com/user-attachments/assets/29dd0753-ca32-4fd2-b3c4-d57f724d474c" />
-<img width="1033" height="1029" alt="Screenshot 2026-05-03 095522" src="https://github.com/user-attachments/assets/6ca90788-7c9b-494f-bb1b-e5527e7282fc" />
-<img width="1036" height="1023" alt="Screenshot 2026-05-03 095315" src="https://github.com/user-attachments/assets/cac1fe82-35f3-4f7a-b4e5-48e009d3e177" />
-
-
-Screen Record:
-https://drive.google.com/drive/folders/1nuoUvupptWiuRLhHkcyf2X61M1AqWaoy?usp=sharing
-
-
-
 
 WAD 2 Final Project: Advanced Task and Inventory Management System
 
